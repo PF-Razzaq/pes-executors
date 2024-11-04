@@ -1,0 +1,23 @@
+/* UnderConstruction.css */
+.under-construction-container {
+    /* Set the background image */
+    background-image: url('../assets/img/backgrounds/constdesign.jpg');
+    
+    /* Set background size to cover the entire container */
+    /* background-size: ; */
+      
+    /* Center the content vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Set a minimum height to ensure the content is visible */
+    min-height: 100vh;
+    
+    /* Additional styles for text */
+    color: white; /* Set text color to white or any other color that suits the background */
+    text-align: center;
+   
+
+  }
+  

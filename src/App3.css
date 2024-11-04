@@ -1,0 +1,471 @@
+/* All css  */
+.App {
+  text-align: center;
+}
+.showMenuMobile {
+  @media (max-width: 815px) {
+    width: 50vw;
+  }
+  @media (max-width: 450px) {
+    width: 100vw;
+  }
+}
+.admindash:hover {
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.custom-cursor-none a {
+  cursor: default; /* Removes the cursor pointer */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* #layoutSidenav_nav {
+  width: 220px;
+} */
+@media (max-width: 450px) {
+  /* #layoutSidenav_nav {
+    width: 380px;
+  } */
+}
+@media (max-width: 800px) {
+  /* #layoutSidenav_nav {
+    width: 380px;
+  } */
+}
+.App-link {
+  color: #61dafb;
+}
+.qouteInputs {
+  /* border: none; */
+  width: 137px;
+  color: #867070;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft.MuiTableCell-sizeMedium.css-1ex1afd-MuiTableCell-root {
+  border-bottom: none;
+  padding: 4px;
+}
+.loginCentre {
+  width: 65%;
+  margin: 0 auto !important;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .loginCentre {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  #viewquotebtn {
+    width: 110px;
+    margin-left: 10px;
+  }
+
+  #deletequotebtn {
+    width: 110px;
+    margin-left: 40px;
+  }
+  #editquotebtn {
+    width: 110px;
+  }
+
+  #deletequotebtnmat {
+    width: 120px;
+    margin-left: 50px;
+  }
+  #viewquotebtnmat {
+    width: 120px;
+
+    margin-left: 10px;
+  }
+  div#layoutSidenav {
+    left: -15%;
+    /* overflow: hidden; */
+    position: relative;
+    width: 76%;
+  }
+  div#accordionSidenav {
+    position: relative;
+    left: 33%;
+  }
+  nav.sidenav.shadow-right.sidenav-light {
+    width: 67% !important ;
+  }
+  .sidenav-footer {
+    position: relative;
+    left: 34%;
+  }
+
+  .container-xl.px-4.mt-4 {
+    width: 100%;
+    position: relative;
+    left: 39.5%;
+  }
+  .page-header .page-header-content {
+    padding-bottom: 3rem;
+    left: 17%;
+    position: relative;
+  }
+  .card.lift {
+    text-decoration: none;
+    color: inherit;
+    left: 15.5%;
+    width: 91%;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(33, 40, 50, 0.125);
+    border-radius: 0.35rem;
+    /* left: 2%; */
+  }
+  .sidenav .sidenav-menu .nav .nav-link {
+    left: -8%;
+  }
+  .sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
+    left: 23px !important;
+  }
+  .row.align-items-center.justify-content-between.pt-3 {
+    left: 21% !important;
+    position: relative;
+  }
+  header.page-header.page-header-dark.bg-gradient-primary-to-secondary.pb-10 {
+    left: 40%;
+    position: relative;
+  }
+  .skiptranslate {
+    display: none;
+  }
+  .page-header .page-header-content {
+    left: -3%;
+  }
+  html {
+    overflow: hidden;
+  }
+  .Dashboardcard {
+    left: 4%;
+    position: relative;
+  }
+  #solid {
+    left: 12%;
+    position: relative;
+    width: 91% !important;
+  }
+  #solid2 {
+    left: 12%;
+    position: relative;
+    width: 91% !important;
+  }
+  #solid3 {
+    left: 12%;
+    position: relative;
+    width: 91% !important;
+  }
+  .container-xl.px-4.mt-n10 {
+    left: 39%;
+    position: relative;
+    width: 94.5%;
+  }
+  footer.footer-admin.mt-auto.footer-light {
+    /* position: absolute;
+    top: 241%;
+    left: 28%; */
+    margin-left: 10px;
+  }
+  .footerMobile {
+    width: 120%;
+    margin-left: 19% !important;
+  }
+  .card.lift {
+    left: 7%;
+  }
+  #dashMobile {
+    left: 19%;
+  }
+  #dashMobile2 {
+    /* left: 19%; */
+  }
+  #dashMobile3 {
+    left: 19%;
+  }
+  #AdminDashMob {
+    left: 15%;
+  }
+
+  .col-md-6.small {
+    left: 18%;
+    position: relative;
+  }
+
+  #RegisterMob {
+    width: 102%;
+    left: -1%;
+    position: relative;
+  }
+  #RegisterMob2 {
+    width: 112%;
+  }
+  #RecMob2 {
+    width: 112%;
+  }
+  #verfMob {
+    width: 112%;
+  }
+  #newPassMob {
+    width: 112%;
+  }
+  #Adminblue {
+    left: 0%;
+  }
+  #Adminyellow {
+    left: 0%;
+  }
+  #AdminGreen {
+    left: 0%;
+  }
+  #profileMob {
+    left: 20%;
+    position: relative;
+  }
+  #SecurityMOb {
+    left: -18%;
+    position: relative;
+  }
+  #SecurityMOb2 {
+    left: -1%;
+    position: relative;
+  }
+  .JobSMob {
+    width: 24%;
+  }
+  .card-body {
+    margin: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 1000px) {
+  #sidenavAccordion {
+    width: 100%;
+  }
+  .mobileLogout {
+    position: relative;
+    left: 53%;
+  }
+  header.page-header.page-header-compact.page-header-light.border-bottom.bg-white.mb-4 {
+    position: relative;
+    left: 37%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  div#layoutSidenav {
+    left: -7%;
+  }
+
+  html {
+    overflow: hidden;
+  }
+  button#deletequotebtnmat {
+    margin-left: 0px !important;
+  }
+
+  .SavedWidth {
+    width: 151%;
+  }
+
+  /* button#viewquotebtnmat {
+    margin-right: 0px;
+  } */
+}
+@media (min-width: 768px) and (max-width: 1600px) {
+  .page-header-subtitle br {
+    display: none; /* Hide <br> tags */
+  }
+}
+@media (min-width: 768px) and (max-width: 860px) {
+  button#viewquotebtnmat {
+    margin-right: 1px !important;
+    /* width: 55%; */
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  button#viewquotebtnmat {
+    margin-right: 1px !important;
+    width: 55%;
+  }
+}
+h1.banner {
+  left: 37%;
+  position: relative;
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 3px 3px 3px #555;
+
+  width: auto;
+  top: 41px;
+  left: 330px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pleaseCall {
+  margin-left: 23%;
+}
+.marginTopLogin {
+  margin-top: 25%;
+}
+@media (max-width: 374px) {
+  button#loginBtnId {
+    transform: scale(0.8);
+  }
+  .container-xl.px-4.mt-4 {
+    left: 40%;
+  }
+}
+.newUser {
+  color: #0079f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mobClickHere {
+  font-size: 20.4px !important;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .newUser {
+    flex-direction: column;
+  }
+  .btn {
+    transform: scale(0.9);
+  }
+  .mobClickHere {
+    font-size: 16px !important;
+  }
+  .marginTopLogin {
+    margin-top: 35%;
+  }
+  h1.banner {
+    position: relative;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 3px 3px 3px #555;
+    left: 0px;
+    width: auto;
+    top: 0px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .mobileImage {
+    margin-top: -72px !important;
+  }
+  .pleaseCall {
+    margin-left: 0px;
+  }
+  h1.page-header-title {
+    margin-top: 10px;
+  }
+  @media (min-width: 300px) and (max-width: 424px) {
+    header.page-header.page-header-dark.bg-gradient-primary-to-secondary.pb-10 {
+      left: 42%;
+      position: relative;
+    }
+  }
+}
+.loginContainer {
+  background-color: #0061f2;
+  height: 100vh; /* Set height to 100% of viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stylish-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px #0056b3;
+  transition: all 0.3s ease;
+}
+
+.stylish-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px #003870;
+  transform: translateY(-2px);
+}
+
+.stylish-button:active {
+  background-color: #004494;
+  box-shadow: 0 1px #002d62;
+  transform: translateY(1px);
+}
+
+.stylish-buttonSignout {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: #c90505;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.stylish-buttonSignout:hover {
+  background-color: #ff3333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.stylish-buttonSignout:active {
+  background-color: #aa0000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  button.stylish-button,
+  button.stylish-buttonSignout {
+    margin-left: 0% !important;
+    transform: scale(0.7);
+    display: flex;
+
+    margin: auto !important;
+  }
+  button#newEntry {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
